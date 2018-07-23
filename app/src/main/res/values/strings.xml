@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CameraLearning</string>
+    <string name="camera_error_title">"相机发生错误"</string>
+    <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+    <string name="dialog_ok">"确定"</string>
+    <string name="dialog_dismiss">"关闭"</string>
+</resources>

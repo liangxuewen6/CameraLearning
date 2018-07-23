@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".handler.HandlerActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startmainthreadhandler"
+        android:text="start Main Thread Handler"
+        android:onClick="startMainThreadHandler"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startnewhreadhandler"
+        android:text="start New Thread Handler"
+        android:onClick="startNewThreadHandler"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/handlerthreadtest"
+        android:text="handlerthread"
+        android:onClick="newHandlerThread"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearmsg"
+        android:text="clear"
+        android:onClick="clear"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Empty"/>
+    </ScrollView>
+
+</LinearLayout>

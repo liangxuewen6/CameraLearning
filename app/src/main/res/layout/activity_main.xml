@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_textureview_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextureView_Camera"
+        android:onClick="startCameraTextureView"/>
+
+    <Button
+        android:id="@+id/start_textureview_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextureView_Video"
+        android:onClick="startVideoTextureView"/>
+
+
+    <Button
+        android:id="@+id/start_surfaceview_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SurfaceView_Camera"
+        android:onClick="startCameraSurfaceView"/>
+
+    <Button
+        android:id="@+id/start_handler_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler"
+        android:onClick="startHandlerTestActivity" />
+
+    <Button
+        android:id="@+id/start_handlerthreadpool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="handlerthreadpool"
+        android:onClick="startHandlerThreadPool"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startAsyncTaskAcitivty"
+        android:onClick="startAsyncTaskAcitivty"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera with Api1"
+        android:onClick="startCameraApi1Acitivty"/>
+
+
+</LinearLayout>
