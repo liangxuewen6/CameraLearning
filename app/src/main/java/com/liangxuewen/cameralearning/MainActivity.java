@@ -10,7 +10,7 @@ import android.view.View;
 
 import com.liangxuewen.cameralearning.Utils.ApiHelper;
 import com.liangxuewen.cameralearning.asynctask.AsyncTaskActivity;
-import com.liangxuewen.cameralearning.cameraApi1.CameraApi1;
+import com.liangxuewen.cameralearning.cameraApi1.CameraApi1Activity;
 import com.liangxuewen.cameralearning.cameratest.SurfaceViewCameraActivity;
 import com.liangxuewen.cameralearning.cameratest.TextureViewCameraActivity;
 import com.liangxuewen.cameralearning.cameratest.TextureViewVideoActivity;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startCameraApi1Acitivty(View view) {
-        Intent intent = new Intent(MainActivity.this, CameraApi1.class);
+        Intent intent = new Intent(MainActivity.this, CameraApi1Activity.class);
         startActivity(intent);
     }
 

@@ -4,4 +4,5 @@
     <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
     <string name="dialog_ok">"确定"</string>
     <string name="dialog_dismiss">"关闭"</string>
+    <string name="miss_camera_warning">"设备缺少相机"</string>
 </resources>
